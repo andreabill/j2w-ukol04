@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="cs" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Vizitkovník</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet"
+          href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+</head>
+
+<body>
+<h2>Založení nové vizitky</h2>
+<form action method="post">
+    <div>
+        <label for="jmeno">Jméno a Příjmení</label>
+        <input id="jmeno" name="jmeno" type="text"/>
+    </div>
+    <div>
+        <label for="firma">Název firmy</label>
+        <input id="firma" name="firma" type="text"/>
+    </div>
+    <div>
+        <label for="ulice">Ulice a č.p.</label>
+        <input id="ulice" name="ulice" type="text"/>
+    </div>
+    <div>
+        <label for="obec">PSČ a město</label>
+        <input id="obec" name="obecPsc" type="text"/>
+    </div>
+    <div>
+        <label for="telefon">Telefonní číslo</label>
+        <input id="telefon" name="telefon" type="text"/>
+    </div>
+    <div>
+        <label for="email">Emailová adresa</label>
+        <input id="email" name="email" type="text"/>
+    </div>
+    <div>
+        <label for="web">Webové stránky</label>
+        <input id="web" name="web" type="text"/>
+    </div>
+    <div>
+        <button>Přidat k ostatním vizitkám</button>
+    </div>
+
+</form>
+</body>
+</html>
